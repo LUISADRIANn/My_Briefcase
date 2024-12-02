@@ -27,12 +27,6 @@ body {
 
 
 }
-display: inline-block;
-padding: 10px;
-margin-top: 15px;
-border-radius: 10px;
-background-color: #f9f9f9; /* Fondo opcional */
-color: #333; /* Color de texto opcional */
 
 
 .hero h1 {
