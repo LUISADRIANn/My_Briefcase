@@ -10,15 +10,30 @@ body {
     background: url('background.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 00px 20px;
+    padding-top:70px;
+
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.6);
+
+    border: 51px  rgba(0, 0, 0, 0.6); /* Borde completo */
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
     display: inline-block;
-    padding: 20px;
-    border-radius: 10px;
+
+
+
 }
+display: inline-block;
+padding: 10px;
+margin-top: 15px;
+border-radius: 10px;
+background-color: #f9f9f9; /* Fondo opcional */
+color: #333; /* Color de texto opcional */
+
 
 .hero h1 {
     font-size: 3em;
