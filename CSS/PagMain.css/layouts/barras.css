@@ -1,14 +1,14 @@
 
 /*header*/
 .linksButton {
+    position: fixed; /* Mantén la barra fija si necesitas que siempre esté visible */
     top: 0; /* Asegura que comience desde el borde superior */
     left: 0; /* Comienza desde el borde izquierdo */
     width: 100%; /* Ocupa el 100% del contenedor principal */
     background-color: rgb(29, 33, 32); /* Color de fondo */
     display: flex; /* Flexbox para organizar el contenido */
-    flex-wrap: wrap; /* Permitir que los elementos se ajusten */
-
     justify-content: center; /* Centra el contenido horizontalmente */
+    flex-wrap: wrap;
     padding: 20px 0; /* Espaciado vertical */
     border-bottom: 2px solid rgb(238, 0, 0); /* Línea negra en la parte inferior */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
