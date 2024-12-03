@@ -28,20 +28,22 @@
       z-index: 1000;
     }
     .ventana-emergente {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 900px;
-        max-height:800px;
-        background-color: rgb(75, 75, 75);
-        border-radius: 10px;
-        padding: 20px;
-        z-index: 1001;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        overflow: auto; /* Permite scroll en ambas direcciones */
-
-      }
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90vw; /* Máximo 90% del ancho del viewport */
+      max-height: 90vh; /* Máximo 90% de la altura del viewport */
+      width: auto; /* Ajuste automático del ancho */
+      height: auto; /* Ajuste automático de la altura */
+      background-color: rgb(75, 75, 75);
+      border-radius: 10px;
+      padding: 20px;
+      z-index: 1001;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      overflow: auto; /* Habilitar desplazamiento */
+  }
+  
       .ventanaEmergente1 {
         display: grid;
         grid-template-columns: repeat(3, minmax(200px, 1fr));
