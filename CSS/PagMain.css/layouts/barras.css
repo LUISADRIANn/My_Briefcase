@@ -9,7 +9,7 @@
     display: flex; /* Flexbox para organizar el contenido */
     justify-content: center; /* Centra el contenido horizontalmente */
     flex-wrap: wrap;
-    padding: 20px 0; /* Espaciado vertical */
+    padding: 1% 0; /* Espaciado vertical */
     border-bottom: 2px solid rgb(238, 0, 0); /* Línea negra en la parte inferior */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
     margin: 0; /* Elimina márgenes adicionales */
